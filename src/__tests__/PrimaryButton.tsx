@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { it, expect, describe } from "vitest";
-import PrimaryButton from "./PrimaryButton";
+import PrimaryButton from "../components/PrimaryButton";
 
 describe("PrimaryButton()", () => {
   it("should render correctly", () => {
