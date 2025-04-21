@@ -126,6 +126,7 @@ export default function Users() {
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>User Registration</h1>
+      <img src="https//:image.jpg" alt="photo of something" />
 
       <form onSubmit={handleSubmit} style={styles.form}>
         <div style={styles.formGroup}>
