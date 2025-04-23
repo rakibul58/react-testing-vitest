@@ -2,7 +2,8 @@
 // import PrimaryButton from "./components/PrimaryButton";
 // import Users from "./components/Users/User";
 
-import UserTable from "./components/UserTable/UserTable";
+import UserEvent from "./components/UserEvent/UserEvent";
+// import UserTable from "./components/UserTable/UserTable";
 
 export const users = [
   { name: "John Doe", age: 28 },
@@ -25,7 +26,8 @@ function App() {
       <div>
         <FruitList fruits={["apple", "banana", "orange", "guava"]} />
       </div> */}
-      <UserTable users={users} />
+      {/* <UserTable users={users} /> */}
+      <UserEvent />
     </>
   );
 }
